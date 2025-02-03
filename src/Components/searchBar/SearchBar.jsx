@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { Link } from "react-router";
-import "./searchbar.scss";
+import "./SearchBar.scss"; // correction de la casse
 
 export default function SearchBar({ onSearchResults }) {
   const [query, setQuery] = useState("");
