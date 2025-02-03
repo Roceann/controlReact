@@ -1,0 +1,17 @@
+/* HeroDetails.scss */
+.hero-details {
+    &__container {
+      background: rgba(255,255,255,0.9) !important;
+      backdrop-filter: blur(5px);
+    }
+    
+    &__image {
+      border: 3px solid var(--bs-primary);
+      box-shadow: 0 4px 15px rgba(255,20,147,0.3);
+    }
+    
+    &__info p {
+      border-left: 3px solid var(--bs-primary);
+      padding-left: 1rem;
+    }
+  }

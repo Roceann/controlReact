@@ -1,0 +1,12 @@
+.contact-page {
+    .form-control {
+      &:focus {
+        border-color: var(--bs-primary);
+        box-shadow: 0 0 0 0.25rem rgba(255,20,147,0.25);
+      }
+    }
+    
+    .confirmation-message {
+      background: linear-gradient(45deg, var(--bs-primary), var(--bs-secondary));
+    }
+  }
