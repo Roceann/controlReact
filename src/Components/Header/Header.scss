@@ -1,18 +1,20 @@
-/* Header.scss */
 .header {
+    color: #fff; // Assure une bonne visibilité du texte
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); // Optionnel : améliore le contraste
+  
     .navbar-brand {
       font-size: 1.5rem;
       transition: transform 0.3s;
-      
+        
       &:hover {
         transform: scale(1.05);
       }
     }
-  
+    
     .nav-link {
       position: relative;
       padding-bottom: 3px !important;
-      
+        
       &::after {
         content: '';
         position: absolute;
@@ -23,7 +25,7 @@
         background: white;
         transition: width 0.3s;
       }
-      
+        
       &:hover::after {
         width: 100%;
       }
