@@ -1,7 +1,6 @@
 // Code: 404page.jsx
 
 import { Link } from "react-router";
-import "./404Page.scss";
 
 export default function Page404() {
   return (
